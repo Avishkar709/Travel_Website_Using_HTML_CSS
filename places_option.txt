@@ -1,0 +1,100 @@
+<div class="img_class">
+            <center><img id="im1" src="../../Travel Project/assets/country-1.jpg" alt="" height="300px" width="300px">
+                <br>
+            <p id="p3">Set against the shimmering azure of the glittering Aegean Sea, the Santorini Blue Domes feature
+                in almost
+                every single postcard from the quintessential Cycladic island. The most photographed Santorini blue
+                domes churches are located in Oia and are the churches of Agios Spiridonas (Saint Spyridon) and
+                Anasteseos (the Church of the Resurrection). Both are built at the edge of the cliffs right next to one
+                another.
+                While still wandering the streets of Oia, you may also want to visit another Santorini blue domes
+                church, Panagia Platsani, which is dedicated to the Akathist Hymn of the Virgin Mary. Originally, it was
+                built inside the castle of Oia, but a destructive earthquake in 1956 made the soil extremely unstable
+                and ruined the church. It was rebuilt, though, at the center of Oia, where it stands to date.</p></center>
+            <br>
+            <center><img id="im2" src="../../Travel Project/assets/country-2.jpg" alt="" height="300px" width="300px"><br>
+            <p id="p3">Italy has a Mediterranean climate with hot, dry summers and mild, wet winters. The summer months
+                (June to August) are generally the most popular time to visit, but they can also be the hottest and
+                busiest, with temperatures often reaching over 90°F (32°C). If you prefer cooler weather, spring (April
+                to May) and fall (September to October) are good times to visit, with mild temperatures and fewer
+                crowds. Winter (November to March) can be cold and wet, with some snow in the northern and central
+                regions, but it can also be a good time to visit if you're interested in skiing in the Italian Alps.</p>
+            </center><br>
+            <center><img id="im3" src="../../Travel Project/assets/country-3.jpg" alt="" height="300px" width="300px"><br>
+            <p id="p3">
+                The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide (1.6 km)
+                strait connecting San Francisco Bay and the Pacific Ocean. The structure links the U.S. city of San
+                Francisco, California—the northern tip of the San Francisco Peninsula—to Marin County, carrying both
+                U.S. Route 101 and California State Route 1 across the strait. It also carries pedestrian and bicycle
+                traffic, and is designated as part of U.S. Bicycle Route 95. Recognized by the American Society of Civil
+                Engineers as one of the Wonders of the Modern World,[7] the bridge is one of the most internationally
+                recognized symbols of San Francisco and California.
+            </p></center>
+            <br>
+            <center><img id="im4" src="../../Travel Project/assets/country-4.jpg" alt="" height="300px" width="300px"><br>
+            <p id="p3">
+                Navagio was once named Agios Georgios, getting its new name from a shipwreck that was washed ashore in
+                1980! The ship MV Panagiotis said to have been smuggling large amounts of contraband cigarettes, was
+                abandoned by its crew due to poor weather conditions and trouble with the local navy authorities!
+                Nowadays, the rusted ship is well-covered in Navagio’s characteristic white sand, whereas many travelers
+                have left their mark on the ship through the use of graffiti.
+                Shipwreck Navagio is a completely non-organized seashore, having an absence of on-the-beach facilities
+                other than the grand shipwreck! It can only be approached by boat (usually from the ports of Porto Vromi
+                and Agios Nikolaos) or via a privately rented speedboat. The viewpoint above the beach can be easily
+                reached by car, though!
+                Keep in mind that due to its popularity, this shore gets overcrowded during the high season!
+            </p></center>
+            <br>
+            <center><img id="im5" src="../../Travel Project/assets/country-5.jpg" alt="" height="300px" width="300px"><br>
+            <p id="p3">
+                Ao Nang beach is a part of the pristine Krabi Islands present in Thailand, which is also the main beach
+                of the Ao Nang province. Located in the heart of Ao Nang, it is easily accessible, making it one of the
+                most popular beaches in Thailand.Despite being a beach town, you'll have to go a little ways to find a
+                proper place to swim in Ao Nang. The main beach is also the main departure point for long tail boats
+                heading to the islands, and as such it is quite a hazard to swim there.Ao Nang (Thai: อ่าวนาง,
+                pronounced [ʔàːw nāːŋ]) is a resort town and one of the ten subdistricts (tambon) of Mueang Krabi
+                District, Krabi, Thailand.
+            </p></center>
+        </div>
+
+
+
+
+
+
+
+--------------------CSS--------------------------------
+
+
+
+.img_class img {
+  filter: grayscale(100%);
+  position: static;
+  /* margin-left: 150px; */
+  border-radius: 100px;
+  transition: transform 0.2s linear;
+}
+.img_class img:hover {
+  filter: brightness(100%);
+  height: 350px;
+  width: 350px;
+  transform: scale(1.2); 
+}
+#p3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 20px;
+  color: gray;
+    max-width: 1000px;
+    font-size: medium;
+    display: inline-block;
+    margin: 4px;
+    padding: 40px;
+    transform: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#p3:hover{
+  line-height: 25px;
+  font-size: medium;
+  color: darkblue;
+  transform: scale(1.1);
+}
